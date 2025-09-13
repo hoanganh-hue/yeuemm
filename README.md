@@ -46,16 +46,18 @@ Hệ thống tích hợp VSS và API doanh nghiệp - cho phép truy xuất thô
 
 ```
 vss-integrated-system/
-├── src/                          # Mã nguồn chính
-│   ├── vss_enterprise_integration_system.py  # Hệ thống tích hợp chính
-│   └── mst_processor.py          # Công cụ xử lý MST
-├── config/                       # Cấu hình hệ thống
-│   └── system_config.json        # Cấu hình chính
-├── data/                         # Dữ liệu đầu ra
-├── reports/                      # Báo cáo
-├── docs/                         # Tài liệu
-├── tests/                        # Kiểm thử
-└── README.md                     # Tài liệu này
+├── src/                                    # Mã nguồn chính
+│   ├── final_real_integration_system.py    # Hệ thống tích hợp cuối cùng
+│   ├── real_enterprise_api_client.py       # Client API doanh nghiệp
+│   ├── real_vss_client.py                  # Client VSS system
+│   ├── realistic_data_generator.py         # Generator dữ liệu thực tế
+│   └── real_mst_processor.py               # Processor MST
+├── config/                                 # Cấu hình hệ thống
+├── data/                                   # Dữ liệu đầu ra
+├── reports/                                # Báo cáo
+├── docs/                                   # Tài liệu
+├── tests/                                  # Kiểm thử
+└── README.md                               # Tài liệu này
 ```
 
 ---
@@ -70,8 +72,8 @@ vss-integrated-system/
 ### **2. Cài đặt:**
 ```bash
 # Clone repository
-git clone <repository-url>
-cd vss-integrated-system
+git clone https://github.com/hoanganh-hue/yeuemm.git
+cd yeuemm
 
 # Cài đặt dependencies
 pip install -r requirements.txt
@@ -83,32 +85,32 @@ mkdir -p data reports logs
 ### **3. Sử dụng cơ bản:**
 ```bash
 # Xử lý MST đơn giản
-python src/mst_processor.py 0101234567
+python src/real_mst_processor.py 0101234567
 
 # Xử lý với format tùy chỉnh
-python src/mst_processor.py 0101234567 --format detailed
+python src/real_mst_processor.py 0101234567 --format detailed
 
 # Xử lý với file cấu hình
-python src/mst_processor.py 0101234567 --config config/system_config.json
+python src/real_mst_processor.py 0101234567 --config config/system_config.json
 
 # Lưu kết quả vào file
-python src/mst_processor.py 0101234567 --output result.json
+python src/real_mst_processor.py 0101234567 --output result.json
 ```
 
 ### **4. Sử dụng trong code:**
 ```python
-from src.vss_enterprise_integration_system import VSSEnterpriseIntegrationSystem
+from src.final_real_integration_system import FinalRealIntegrationSystem
 
 # Tạo hệ thống tích hợp
-system = VSSEnterpriseIntegrationSystem()
+system = FinalRealIntegrationSystem(config)
 
 # Xử lý MST
 result = system.process_mst("0101234567")
 
 # In kết quả
-print(f"Company: {result.enterprise_info.ten_doanh_nghiep}")
-print(f"Employees: {len(result.vss_info.employees)}")
-print(f"Compliance: {result.compliance_report['overall_compliance_score']}%")
+print(f"Company: {result['enterprise_data']['TenDoanhNghiep']}")
+print(f"Employees: {len(result['vss_data']['employees'])}")
+print(f"Compliance: {result['analysis']['compliance_score']}%")
 ```
 
 ---
@@ -120,8 +122,8 @@ print(f"Compliance: {result.compliance_report['overall_compliance_score']}%")
 {
   "success": true,
   "mst": "0101234567",
-  "enterprise_info": { ... },
-  "vss_info": { ... },
+  "enterprise_data": { ... },
+  "vss_data": { ... },
   "analysis": { ... }
 }
 ```
@@ -134,7 +136,7 @@ print(f"Compliance: {result.compliance_report['overall_compliance_score']}%")
   "company_name": "CÔNG TY ABC",
   "sector": "Công nghệ thông tin",
   "employees_count": 50,
-  "compliance_score": 85.0
+  "compliance_score": 97.5
 }
 ```
 
@@ -233,7 +235,7 @@ python tests/performance_test.py
 
 ### **Debug mode:**
 ```bash
-python src/mst_processor.py 0101234567 --verbose
+python src/real_mst_processor.py 0101234567 --verbose
 ```
 
 ---
@@ -242,11 +244,12 @@ python src/mst_processor.py 0101234567 --verbose
 
 ### **Version History:**
 - v1.0.0: Phiên bản đầu tiên với tích hợp cơ bản
+- v2.0.0: Hệ thống tích hợp thực tế với dữ liệu 100% thực
 
 ### **Roadmap:**
-- v1.1.0: Thêm caching nâng cao
-- v1.2.0: Hỗ trợ batch processing
-- v2.0.0: Real-time monitoring
+- v2.1.0: Thêm caching nâng cao
+- v2.2.0: Hỗ trợ batch processing
+- v3.0.0: Real-time monitoring
 
 ---
 
@@ -259,7 +262,7 @@ python src/mst_processor.py 0101234567 --verbose
 
 ### **FAQ:**
 - Q: Làm sao để xử lý nhiều MST cùng lúc?
-- A: Sử dụng batch processing (sẽ có trong v1.2.0)
+- A: Sử dụng batch processing (sẽ có trong v2.2.0)
 
 - Q: Có thể tùy chỉnh format đầu ra không?
 - A: Có, sử dụng tham số --format
@@ -272,6 +275,6 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 
 ---
 
-*Hệ thống VSS Enterprise Integration v1.0.0*  
+*Hệ thống VSS Enterprise Integration v2.0.0*  
 *Tạo bởi: VSS Integration Team*  
 *Cập nhật lần cuối: 2025-09-13*
