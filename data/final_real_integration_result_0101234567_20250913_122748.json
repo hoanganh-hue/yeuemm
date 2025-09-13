@@ -1,0 +1,738 @@
+{
+  "enterprise_info": {
+    "mst": "0101234567",
+    "ten_doanh_nghiep": "DOANH NGHIỆP TƯ NHÂN GIÁO DỤC VIỆT NAM",
+    "dia_chi": "Số 655, Đường Nguyễn Thị Minh Khai, Phường 1, Quận Hoàng Mai, Hải Dương",
+    "nganh_nghe": "Xây dựng",
+    "loai_hinh": "Tập đoàn",
+    "so_dien_thoai": "0285.917.8323",
+    "website": "https://www.doanhnghiệptưnhângiáodụcviệtnam.com.vn",
+    "ngay_cap": "2024-03-24",
+    "ngay_het_han": "2034-03-22",
+    "doanh_thu": 44807568330,
+    "so_ngan_hang": "6797877617",
+    "tinh_thanh": "Hải Dương",
+    "quan_huyen": "Quận Hoàng Mai",
+    "phuong_xa": "Phường 1",
+    "data_quality": 95.0,
+    "data_source": "realistic_generator",
+    "is_real_data": false,
+    "extracted_at": "2025-09-13T12:27:35.794101"
+  },
+  "vss_info": {
+    "employees": [
+      {
+        "employee_id": "EMP_001_0101234567",
+        "full_name": "Dương Bắc Nam",
+        "position": "Nhân viên bán hàng",
+        "salary": 13597724,
+        "start_date": "2023-12-04",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885409"
+      },
+      {
+        "employee_id": "EMP_002_0101234567",
+        "full_name": "Đỗ Thanh Phương",
+        "position": "Bảo vệ",
+        "salary": 18432333,
+        "start_date": "2024-04-13",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885442"
+      },
+      {
+        "employee_id": "EMP_003_0101234567",
+        "full_name": "Nguyễn Quang Giang",
+        "position": "Kỹ sư",
+        "salary": 21399407,
+        "start_date": "2025-02-12",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885457"
+      },
+      {
+        "employee_id": "EMP_004_0101234567",
+        "full_name": "Đinh Đông Bình",
+        "position": "Nhân viên văn phòng",
+        "salary": 19452255,
+        "start_date": "2025-03-16",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885470"
+      },
+      {
+        "employee_id": "EMP_005_0101234567",
+        "full_name": "Nguyễn Quang Quang",
+        "position": "Lái xe",
+        "salary": 13739624,
+        "start_date": "2023-05-13",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885480"
+      },
+      {
+        "employee_id": "EMP_006_0101234567",
+        "full_name": "Phạm Công Uyên",
+        "position": "Nhân viên",
+        "salary": 18739264,
+        "start_date": "2023-05-23",
+        "status": "inactive",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885490"
+      },
+      {
+        "employee_id": "EMP_007_0101234567",
+        "full_name": "Đinh Hạ Sơn",
+        "position": "Giám đốc",
+        "salary": 83135559,
+        "start_date": "2023-04-02",
+        "status": "inactive",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885500"
+      },
+      {
+        "employee_id": "EMP_008_0101234567",
+        "full_name": "Hồ Xuân Oanh",
+        "position": "Kế toán",
+        "salary": 15468051,
+        "start_date": "2023-05-12",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885508"
+      },
+      {
+        "employee_id": "EMP_009_0101234567",
+        "full_name": "Ngô Nam Sơn",
+        "position": "Trưởng phòng",
+        "salary": 48414411,
+        "start_date": "2023-09-04",
+        "status": "inactive",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885518"
+      },
+      {
+        "employee_id": "EMP_010_0101234567",
+        "full_name": "Phan Quang Nam",
+        "position": "Trưởng phòng",
+        "salary": 33155936,
+        "start_date": "2024-01-26",
+        "status": "inactive",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885528"
+      },
+      {
+        "employee_id": "EMP_011_0101234567",
+        "full_name": "Nguyễn Thanh Oanh",
+        "position": "Kế toán",
+        "salary": 14674811,
+        "start_date": "2024-10-27",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885554"
+      },
+      {
+        "employee_id": "EMP_012_0101234567",
+        "full_name": "Lê Trung Minh",
+        "position": "Bảo vệ",
+        "salary": 8135023,
+        "start_date": "2023-06-11",
+        "status": "active",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885564"
+      }
+    ],
+    "contributions": [
+      {
+        "contribution_id": "CONT_001_0101234567",
+        "employee_id": "EMP_001_0101234567",
+        "contribution_amount": 1155806,
+        "contribution_date": "2025-01-26",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885577"
+      },
+      {
+        "contribution_id": "CONT_002_0101234567",
+        "employee_id": "EMP_001_0101234567",
+        "contribution_amount": 1155806,
+        "contribution_date": "2025-02-09",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885585"
+      },
+      {
+        "contribution_id": "CONT_003_0101234567",
+        "employee_id": "EMP_001_0101234567",
+        "contribution_amount": 1155806,
+        "contribution_date": "2025-01-19",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885591"
+      },
+      {
+        "contribution_id": "CONT_004_0101234567",
+        "employee_id": "EMP_002_0101234567",
+        "contribution_amount": 1566748,
+        "contribution_date": "2025-08-03",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885598"
+      },
+      {
+        "contribution_id": "CONT_005_0101234567",
+        "employee_id": "EMP_002_0101234567",
+        "contribution_amount": 1566748,
+        "contribution_date": "2024-10-13",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885604"
+      },
+      {
+        "contribution_id": "CONT_006_0101234567",
+        "employee_id": "EMP_002_0101234567",
+        "contribution_amount": 1566748,
+        "contribution_date": "2024-11-27",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885609"
+      },
+      {
+        "contribution_id": "CONT_007_0101234567",
+        "employee_id": "EMP_002_0101234567",
+        "contribution_amount": 1566748,
+        "contribution_date": "2025-04-18",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885615"
+      },
+      {
+        "contribution_id": "CONT_008_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-08-25",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885621"
+      },
+      {
+        "contribution_id": "CONT_009_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-06-29",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885627"
+      },
+      {
+        "contribution_id": "CONT_010_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2024-10-18",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885634"
+      },
+      {
+        "contribution_id": "CONT_011_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-02-15",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885639"
+      },
+      {
+        "contribution_id": "CONT_012_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-08-23",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885645"
+      },
+      {
+        "contribution_id": "CONT_013_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2024-11-16",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885651"
+      },
+      {
+        "contribution_id": "CONT_014_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-03-23",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885656"
+      },
+      {
+        "contribution_id": "CONT_015_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-05-20",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885661"
+      },
+      {
+        "contribution_id": "CONT_016_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-07-04",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885666"
+      },
+      {
+        "contribution_id": "CONT_017_0101234567",
+        "employee_id": "EMP_003_0101234567",
+        "contribution_amount": 1818949,
+        "contribution_date": "2025-01-07",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885671"
+      },
+      {
+        "contribution_id": "CONT_018_0101234567",
+        "employee_id": "EMP_004_0101234567",
+        "contribution_amount": 1653441,
+        "contribution_date": "2025-02-24",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885680"
+      },
+      {
+        "contribution_id": "CONT_019_0101234567",
+        "employee_id": "EMP_004_0101234567",
+        "contribution_amount": 1653441,
+        "contribution_date": "2025-06-18",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885685"
+      },
+      {
+        "contribution_id": "CONT_020_0101234567",
+        "employee_id": "EMP_004_0101234567",
+        "contribution_amount": 1653441,
+        "contribution_date": "2024-09-15",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885690"
+      },
+      {
+        "contribution_id": "CONT_021_0101234567",
+        "employee_id": "EMP_005_0101234567",
+        "contribution_amount": 1167868,
+        "contribution_date": "2024-11-15",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885695"
+      },
+      {
+        "contribution_id": "CONT_022_0101234567",
+        "employee_id": "EMP_005_0101234567",
+        "contribution_amount": 1167868,
+        "contribution_date": "2025-03-29",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885701"
+      },
+      {
+        "contribution_id": "CONT_023_0101234567",
+        "employee_id": "EMP_008_0101234567",
+        "contribution_amount": 1314784,
+        "contribution_date": "2025-02-17",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885707"
+      },
+      {
+        "contribution_id": "CONT_024_0101234567",
+        "employee_id": "EMP_008_0101234567",
+        "contribution_amount": 1314784,
+        "contribution_date": "2025-07-26",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885712"
+      },
+      {
+        "contribution_id": "CONT_025_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2024-11-13",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885718"
+      },
+      {
+        "contribution_id": "CONT_026_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-02-16",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885723"
+      },
+      {
+        "contribution_id": "CONT_027_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-06-14",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885729"
+      },
+      {
+        "contribution_id": "CONT_028_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2024-12-29",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885735"
+      },
+      {
+        "contribution_id": "CONT_029_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-01-31",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885740"
+      },
+      {
+        "contribution_id": "CONT_030_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-04-27",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885746"
+      },
+      {
+        "contribution_id": "CONT_031_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2024-11-27",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885751"
+      },
+      {
+        "contribution_id": "CONT_032_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-06-15",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885756"
+      },
+      {
+        "contribution_id": "CONT_033_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-03-13",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885761"
+      },
+      {
+        "contribution_id": "CONT_034_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2024-12-17",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885766"
+      },
+      {
+        "contribution_id": "CONT_035_0101234567",
+        "employee_id": "EMP_011_0101234567",
+        "contribution_amount": 1247358,
+        "contribution_date": "2025-05-16",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885783"
+      },
+      {
+        "contribution_id": "CONT_036_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2025-04-22",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885790"
+      },
+      {
+        "contribution_id": "CONT_037_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2025-09-02",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885795"
+      },
+      {
+        "contribution_id": "CONT_038_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2025-02-28",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885801"
+      },
+      {
+        "contribution_id": "CONT_039_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2024-09-17",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885806"
+      },
+      {
+        "contribution_id": "CONT_040_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2024-10-08",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885812"
+      },
+      {
+        "contribution_id": "CONT_041_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2025-04-28",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885816"
+      },
+      {
+        "contribution_id": "CONT_042_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "contribution_amount": 691476,
+        "contribution_date": "2024-11-16",
+        "contribution_type": "social_insurance",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885823"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM_001_0101234567",
+        "employee_id": "EMP_005_0101234567",
+        "claim_type": "maternity",
+        "claim_amount": 4993405,
+        "claim_date": "2025-04-16",
+        "status": "approved",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885911"
+      },
+      {
+        "claim_id": "CLAIM_002_0101234567",
+        "employee_id": "EMP_005_0101234567",
+        "claim_type": "sick_leave",
+        "claim_amount": 748266,
+        "claim_date": "2025-04-02",
+        "status": "approved",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885923"
+      },
+      {
+        "claim_id": "CLAIM_003_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "claim_type": "sick_leave",
+        "claim_amount": 800594,
+        "claim_date": "2025-06-25",
+        "status": "pending",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885933"
+      },
+      {
+        "claim_id": "CLAIM_004_0101234567",
+        "employee_id": "EMP_012_0101234567",
+        "claim_type": "medical",
+        "claim_amount": 3623732,
+        "claim_date": "2025-04-05",
+        "status": "approved",
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885942"
+      }
+    ],
+    "hospitals": [
+      {
+        "hospital_id": "HOSP_001",
+        "hospital_name": "Bệnh viện Phụ sản Trung ương",
+        "address": "Số 957, Đường Lê Lợi, Phường Hàng Buồm, Huyện Hoài Đức, Thái Nguyên",
+        "phone": "0238-202-4878",
+        "specialties": [
+          "Huyết học",
+          "Răng hàm mặt"
+        ],
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885966"
+      },
+      {
+        "hospital_id": "HOSP_002",
+        "hospital_name": "Bệnh viện Tâm thần Trung ương",
+        "address": "Số 358, Đường Lê Duẩn, Phường Hàng Mã, Huyện Đan Phượng, Hà Tĩnh",
+        "phone": "0238-510-2130",
+        "specialties": [
+          "Thần kinh",
+          "Răng hàm mặt",
+          "Tim mạch",
+          "Sản phụ khoa"
+        ],
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885982"
+      },
+      {
+        "hospital_id": "HOSP_003",
+        "hospital_name": "Bệnh viện Phụ sản Trung ương",
+        "address": "Số 982, Đường Hai Bà Trưng, Phường Hàng Trống, Quận Long Biên, Ninh Thuận",
+        "phone": "0238-027-0075",
+        "specialties": [
+          "Tim mạch",
+          "Da liễu"
+        ],
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.885994"
+      },
+      {
+        "hospital_id": "HOSP_004",
+        "hospital_name": "Bệnh viện Phong",
+        "address": "Số 440, Đường Lê Lợi, Phường Hàng Trống, Quận 1, Phú Yên",
+        "phone": "024-773-8255",
+        "specialties": [
+          "Nhi khoa",
+          "Ngoại khoa",
+          "Da liễu"
+        ],
+        "mst": "0101234567",
+        "extracted_at": "2025-09-13T12:27:48.886005"
+      }
+    ],
+    "compliance": {
+      "registration_compliance": true,
+      "contribution_compliance": true,
+      "employee_compliance": true,
+      "overall_compliance_score": 98.60393379915278,
+      "last_audit_date": "2024-09-15",
+      "compliance_issues": []
+    },
+    "risk_assessment": {
+      "risk_level": "low",
+      "risk_score": 20.0,
+      "risk_factors": [
+        "Tỷ lệ thay đổi nhân viên cao"
+      ],
+      "mitigation_strategies": [
+        "Cải thiện môi trường làm việc"
+      ],
+      "assessment_date": "2025-09-13T12:27:48.886031"
+    },
+    "data_quality": 100.0,
+    "data_source": "realistic_generator",
+    "is_real_data": false,
+    "extracted_at": "2025-09-13T12:27:48.886053"
+  },
+  "company_profile": {
+    "basic_info": {
+      "mst": "0101234567",
+      "company_name": "DOANH NGHIỆP TƯ NHÂN GIÁO DỤC VIỆT NAM",
+      "address": "Số 655, Đường Nguyễn Thị Minh Khai, Phường 1, Quận Hoàng Mai, Hải Dương",
+      "phone": "0285.917.8323",
+      "website": "https://www.doanhnghiệptưnhângiáodụcviệtnam.com.vn"
+    },
+    "business_info": {
+      "sector": "Xây dựng",
+      "type": "Tập đoàn",
+      "revenue": 44807568330,
+      "bank_account": "6797877617"
+    },
+    "registration_info": {
+      "registration_date": "2024-03-24",
+      "expiry_date": "2034-03-22"
+    },
+    "data_quality": 95.0,
+    "data_source": "realistic_generator",
+    "is_real_data": false
+  },
+  "employee_analysis": {
+    "total_employees": 12,
+    "active_employees": 8,
+    "average_salary": 25695366.5,
+    "salary_distribution": {
+      "min_salary": 8135023,
+      "max_salary": 83135559,
+      "median_salary": 18585798.5,
+      "salary_ranges": {
+        "low": 1,
+        "medium": 7,
+        "high": 4
+      }
+    },
+    "employee_turnover": {
+      "active_count": 8,
+      "total_count": 12,
+      "turnover_rate": 33.33333333333333
+    },
+    "data_source": "realistic_generator",
+    "is_real_data": false
+  },
+  "contribution_analysis": {
+    "total_contributions": 42,
+    "total_contribution_amount": 56410797,
+    "average_contribution": 1343114.2142857143,
+    "contribution_trends": {
+      "monthly_contributions": 42,
+      "total_amount": 56410797,
+      "average_monthly": 1343114.2142857143
+    },
+    "data_source": "realistic_generator",
+    "is_real_data": false
+  },
+  "compliance_report": {
+    "overall_compliance_score": 98.60393379915278,
+    "registration_compliance": true,
+    "contribution_compliance": true,
+    "employee_compliance": true,
+    "compliance_issues": [],
+    "last_audit_date": "2024-09-15",
+    "data_source": "realistic_generator",
+    "is_real_data": false
+  },
+  "risk_assessment": {
+    "risk_level": "low",
+    "risk_score": 20.0,
+    "risk_factors": [
+      "Tỷ lệ thay đổi nhân viên cao"
+    ],
+    "mitigation_strategies": [
+      "Cải thiện môi trường làm việc"
+    ],
+    "data_source": "realistic_generator",
+    "is_real_data": false
+  },
+  "recommendations": [
+    "Kết nối API doanh nghiệp để lấy dữ liệu thực tế",
+    "Kết nối hệ thống VSS để lấy dữ liệu nhân viên thực tế",
+    "Kết nối hệ thống VSS để lấy dữ liệu đóng góp thực tế",
+    "Xử lý các yếu tố rủi ro: Tỷ lệ thay đổi nhân viên cao",
+    "Thường xuyên cập nhật thông tin doanh nghiệp",
+    "Tăng cường giám sát tuân thủ BHXH",
+    "Cải thiện quy trình quản lý nhân sự",
+    "Xây dựng kế hoạch phát triển bền vững"
+  ],
+  "extraction_time": 13.422338962554932,
+  "data_quality_score": 97.5,
+  "integration_confidence": 100.0,
+  "real_data_percentage": 0.0,
+  "total_data_items": 63,
+  "generated_at": "2025-09-13T12:27:48.886672"
+}

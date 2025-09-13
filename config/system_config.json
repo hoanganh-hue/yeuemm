@@ -1,0 +1,76 @@
+{
+  "system": {
+    "name": "VSS Enterprise Integration System",
+    "version": "1.0.0",
+    "description": "Complete integration system for VSS and Enterprise API",
+    "author": "VSS Integration Team"
+  },
+  "api": {
+    "enterprise": {
+      "base_url": "https://thongtindoanhnghiep.co",
+      "timeout": 30,
+      "retry_attempts": 3,
+      "rate_limit_delay": 1.0
+    },
+    "vss": {
+      "base_url": "http://vssapp.teca.vn:8088",
+      "timeout": 30,
+      "retry_attempts": 3,
+      "rate_limit_delay": 1.0
+    }
+  },
+  "processing": {
+    "enable_caching": true,
+    "cache_duration": 3600,
+    "enable_logging": true,
+    "log_level": "INFO",
+    "save_results": true,
+    "generate_report": true
+  },
+  "output": {
+    "default_format": "json",
+    "available_formats": ["json", "summary", "detailed"],
+    "save_directory": "data",
+    "report_directory": "reports"
+  },
+  "data_mappings": {
+    "enterprise_to_vss": {
+      "mst": "tax_code",
+      "ten_doanh_nghiep": "company_name",
+      "dia_chi": "registered_address",
+      "so_dien_thoai": "contact_phone",
+      "website": "company_website",
+      "nganh_nghe": "business_sector",
+      "loai_hinh": "company_type",
+      "doanh_thu": "revenue",
+      "tinh_thanh": "province",
+      "quan_huyen": "district",
+      "phuong_xa": "ward"
+    }
+  },
+  "validation": {
+    "mst_format": "^\\d{10,13}$",
+    "phone_format": "^[\\d\\s\\.\\-\\(\\)]+$",
+    "website_format": "^https?://.+",
+    "revenue_format": "^\\d+(\\.\\d+)?$"
+  },
+  "analysis": {
+    "compliance_thresholds": {
+      "excellent": 90,
+      "good": 80,
+      "fair": 70,
+      "poor": 60
+    },
+    "risk_thresholds": {
+      "low": 30,
+      "medium": 60,
+      "high": 80
+    },
+    "data_quality_thresholds": {
+      "excellent": 90,
+      "good": 80,
+      "fair": 70,
+      "poor": 60
+    }
+  }
+}

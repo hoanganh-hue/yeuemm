@@ -1,0 +1,189 @@
+{
+  "enterprise_info": {
+    "mst": "0209876543",
+    "ten_doanh_nghiep": "",
+    "dia_chi": "",
+    "nganh_nghe": "",
+    "loai_hinh": "",
+    "so_dien_thoai": "",
+    "website": "",
+    "ngay_cap": null,
+    "ngay_het_han": "",
+    "doanh_thu": 0.0,
+    "so_ngan_hang": "",
+    "tinh_thanh": "",
+    "quan_huyen": "",
+    "phuong_xa": "",
+    "extracted_at": "2025-09-13T11:54:53.700991"
+  },
+  "vss_info": {
+    "employees": [
+      {
+        "employee_id": "EMP001_0209876543",
+        "full_name": "Nguyễn Văn A",
+        "position": "Nhân viên",
+        "salary": 15000000,
+        "start_date": "2023-01-01",
+        "status": "active"
+      },
+      {
+        "employee_id": "EMP002_0209876543",
+        "full_name": "Trần Thị B",
+        "position": "Trưởng phòng",
+        "salary": 25000000,
+        "start_date": "2022-06-01",
+        "status": "active"
+      }
+    ],
+    "contributions": [
+      {
+        "contribution_id": "CONT001_0209876543",
+        "employee_id": "EMP001_0209876543",
+        "contribution_amount": 1500000,
+        "contribution_date": "2024-01-01",
+        "contribution_type": "social_insurance"
+      },
+      {
+        "contribution_id": "CONT002_0209876543",
+        "employee_id": "EMP002_0209876543",
+        "contribution_amount": 2500000,
+        "contribution_date": "2024-01-01",
+        "contribution_type": "social_insurance"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM001_0209876543",
+        "employee_id": "EMP001_0209876543",
+        "claim_type": "medical",
+        "claim_amount": 500000,
+        "claim_date": "2024-01-15",
+        "status": "approved"
+      }
+    ],
+    "hospitals": [
+      {
+        "hospital_id": "HOSP001",
+        "hospital_name": "Bệnh viện Bạch Mai",
+        "address": "78 Giải Phóng, Hà Nội",
+        "phone": "024-3869-3731",
+        "specialties": [
+          "Nội khoa",
+          "Ngoại khoa"
+        ]
+      },
+      {
+        "hospital_id": "HOSP002",
+        "hospital_name": "Bệnh viện Chợ Rẫy",
+        "address": "201B Nguyễn Chí Thanh, TP.HCM",
+        "phone": "028-3855-4137",
+        "specialties": [
+          "Tim mạch",
+          "Thần kinh"
+        ]
+      }
+    ],
+    "compliance": {
+      "registration_compliance": true,
+      "contribution_compliance": true,
+      "employee_compliance": true,
+      "overall_compliance_score": 85.0,
+      "last_audit_date": "2024-01-01",
+      "compliance_issues": []
+    },
+    "risk_assessment": {
+      "risk_level": "medium",
+      "risk_score": 65.0,
+      "risk_factors": [
+        "High employee turnover",
+        "Low contribution compliance"
+      ],
+      "mitigation_strategies": [
+        "Improve employee retention",
+        "Increase compliance monitoring"
+      ],
+      "assessment_date": "2024-01-01"
+    },
+    "extracted_at": "2025-09-13T11:54:53.701190"
+  },
+  "company_profile": {
+    "basic_info": {
+      "mst": "0209876543",
+      "company_name": "",
+      "address": "",
+      "phone": "",
+      "website": ""
+    },
+    "business_info": {
+      "sector": "",
+      "type": "",
+      "revenue": 0.0,
+      "bank_account": ""
+    },
+    "registration_info": {
+      "registration_date": null,
+      "expiry_date": ""
+    }
+  },
+  "employee_analysis": {
+    "total_employees": 2,
+    "active_employees": 2,
+    "average_salary": 20000000.0,
+    "salary_distribution": {
+      "min_salary": 15000000,
+      "max_salary": 25000000,
+      "median_salary": 20000000.0,
+      "salary_ranges": {
+        "low": 0,
+        "medium": 1,
+        "high": 1
+      }
+    },
+    "employee_turnover": {
+      "active_count": 2,
+      "total_count": 2,
+      "turnover_rate": 0.0
+    }
+  },
+  "contribution_analysis": {
+    "total_contributions": 2,
+    "total_contribution_amount": 4000000,
+    "average_contribution": 2000000.0,
+    "contribution_trends": {
+      "monthly_contributions": 2,
+      "total_amount": 4000000,
+      "average_monthly": 2000000.0
+    }
+  },
+  "compliance_report": {
+    "overall_compliance_score": 85.0,
+    "registration_compliance": true,
+    "contribution_compliance": true,
+    "employee_compliance": true,
+    "compliance_issues": [],
+    "last_audit_date": "2024-01-01"
+  },
+  "risk_assessment": {
+    "risk_level": "medium",
+    "risk_score": 65.0,
+    "risk_factors": [
+      "High employee turnover",
+      "Low contribution compliance"
+    ],
+    "mitigation_strategies": [
+      "Improve employee retention",
+      "Increase compliance monitoring"
+    ]
+  },
+  "recommendations": [
+    "Xử lý các yếu tố rủi ro: High employee turnover, Low contribution compliance",
+    "Thường xuyên cập nhật thông tin doanh nghiệp",
+    "Tăng cường giám sát tuân thủ BHXH",
+    "Cải thiện quy trình quản lý nhân sự",
+    "Xây dựng kế hoạch phát triển bền vững"
+  ],
+  "extraction_time": 0.28098535537719727,
+  "data_quality_score": 50.0,
+  "integration_confidence": 50.0,
+  "generated_at": "2025-09-13T11:54:53.701558"
+}
